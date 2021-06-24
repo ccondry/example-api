@@ -1,0 +1,2 @@
+# Allow 'administrator' user to restart example-api service
+administrator ALL=NOPASSWD: /bin/systemctl restart example-api.service

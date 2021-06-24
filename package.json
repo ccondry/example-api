@@ -1,0 +1,20 @@
+{
+  "name": "example-api",
+  "version": "2021.6.24",
+  "description": "Example Express.js REST API",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node src/index"
+  },
+  "repository": "https://github.com/ccondry/example-api.git",
+  "author": "Coty Condry <ccondry@cisco.com>",
+  "license": "MIT",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "cors": "^2.8.5",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "node-fetch": "^2.6.0",
+    "request-ip": "^2.1.3"
+  }
+}
